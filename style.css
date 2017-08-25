@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:600|Libre+Franklin:200i|Trirong:200');
+
+*{
+  box-sizing: border-box;
+}
+
+body, html{
+  padding: 0;
+  margin: 0;
+  font-family: 'Trirong';
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Hind Vadodara';
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Trirong';
+}
+
+i{
+  font-family: 'Libre Franklin';
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+main{
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+nav{
+  background-color: #21232a;
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  border-bottom: 3px solid #d92354;
+}
+
+.logo{
+  width: 20%;
+  margin: 0 auto;
+}
+
+.panel{
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #21232a;
+}
+
+.bg-panel{
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: .1;
+}
+
+.champions{
+  background-image: url('img/champions_bg_m.png');
+}
+
+.cars{
+  background-image: url('img/carstock_bg_m.png')
+}
+
+.movies{
+  background-image: url('img/movie_bg_m.png');
+}
+
+.wikipedia{
+  background-image: url('img/museum_bg_m.png');
+}
+
+.frugality{
+  background-image: url('img/frugality_bg_m.png');
+}
+
+.gun{
+  background-image: url('img/graph_bg_m.png');
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project-image{
+  width: 100%;
+  height: auto;
+  margin: 60px 0 40px;
+  box-shadow: 0 0 42px black;
+}
+
+.project-article{
+  width: 100%;
+  height: auto;
+}
+
+.project-article h1{
+  text-align: center;
+  margin: 0 0 15px;
+  color: rgb(236, 236, 236);
+  font-size: 34px;
+}
+
+.project-article hr{
+  border: 0;
+  height: 3px;
+  background-color: #d92354;
+}
+
+.project-article article{
+  line-height: 1.5;
+  color: rgb(236, 236, 236);
+}
+
+.links{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.link-btn{
+  width: 40%;
+  border: 2px solid rgb(236, 236, 236);
+  color: rgb(236, 236, 236);
+  text-align: center;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+.link-btn:hover{
+  background-color: #d92354;
+  border: 2px solid #d92354;
+}
+
+.tags{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+
+.tag{
+  padding: 5px 10px;
+  background-color: rgb(236, 236, 236);
+  margin: 10px 0;
+}
+
+.about-me{
+  width: 100%;
+  font-family:'Libre Franklin';
+  line-height: 1.6;
+}
+
+.about-me main{
+  margin: 30px auto;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  background-color: black;
+  border-top: 3px solid #d92354
+}
+
+footer main{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer main a{
+  color: rgb(236, 236, 236);
+  font-family:'Trirong';
+}
