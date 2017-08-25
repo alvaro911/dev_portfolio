@@ -51,7 +51,7 @@ nav{
   width: 100%;
   height: auto;
   position: relative;
-  background-color: #21232a;
+  background-color: #1c2b3c;
 }
 
 .bg-panel{
@@ -98,6 +98,9 @@ nav{
   width: 100%;
   height: auto;
   margin: 60px 0 40px;
+}
+
+.project-image img{
   box-shadow: 0 0 42px black;
 }
 
@@ -189,4 +192,48 @@ footer main{
 footer main a{
   color: rgb(236, 236, 236);
   font-family:'Trirong';
+}
+
+@media (min-width: 768px){
+  .logo{
+    width: 13%;
+  }
+
+  .champions{
+    background-image: url('img/champions_bg_l.png');
+  }
+
+  .cars{
+    background-image: url('img/carstock_bg_l.png')
+  }
+
+  .movies{
+    background-image: url('img/movie_bg_l.png');
+  }
+
+  .wikipedia{
+    background-image: url('img/museum_bg_l.png');
+  }
+
+  .frugality{
+    background-image: url('img/frugality_bg_l.png');
+  }
+
+  .gun{
+    background-image: url('img/graph_bg_l.png');
+  }
+
+  .project{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .project-image{
+    width: 60%;
+  }
+
+  .project-article{
+    width: 30%;
+    margin: 40px 0;
+  }
 }
